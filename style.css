@@ -1,0 +1,49 @@
+body::before{
+    content: '';
+    position: fixed; /* Фиксируем на одном месте */
+    left: 0; right: 0; /* Вся ширин */
+    top: 0; bottom: 0; /* Вся высота */
+    z-index: -1; /* Фон ниже текста */
+    /* Параметры фона */
+    background-image: url(./details/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+}
+body{
+    cursor: url(./details/cursorStyle/dragonlongswordnewdesign.cur),auto;
+    font-family: 'Neucha', cursive;
+}
+.greetingsWindow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.greetingsTitle{
+    text-align: center;
+    color: #fff;
+    size: 5em;
+    font-size: 3em;
+}
+.greetingsWindow div{
+    text-align: center;
+    color: #fff;
+}
+.greetingsButtons{
+    display: flex;
+    justify-content: space-around;
+    cursor: url(./details/cursorStyle/dragonlongswordnewdesignalternate.cur),pointer;
+    margin: 15px;
+}
+.greetingsButtons div{
+    border: 2px solid transparent;
+    padding: 5px;
+}
+.greetingsButtons div:hover{
+    transition: 0.3s;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+}

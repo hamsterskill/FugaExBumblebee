@@ -1,0 +1,45 @@
+﻿[UpArrow]
+Path=dragon longsword new design alternate.cur
+
+[AppStarting]
+Path=dragon longsword new design busy in background.cur
+
+[Wait]
+Path=dragon longsword new design busy.cur
+
+[Help]
+Path=dragon longsword new design help select.cur
+
+[SizeWE]
+Path=dragon longsword new design horizontal.cur
+
+[Hand]
+Path=dragon longsword new design link.cur
+
+[SizeAll]
+Path=dragon longsword new design move.cur
+
+[NWPen]
+Path=dragon longsword new design penleft.cur
+
+[Crosshair]
+Path=dragon longsword new design precision select.cur
+
+[SizeNWSE]
+Path=dragon longsword new design resize 1.cur
+
+[SizeNESW]
+Path=dragon longsword new design resize 2.cur
+
+[IBeam]
+Path=dragon longsword new design text.cur
+
+[No]
+Path=dragon longsword new design unavailable.cur
+
+[SizeNS]
+Path=dragon longsword new design vertical.cur
+
+[Arrow]
+Path=dragon longsword new design.cur
+
