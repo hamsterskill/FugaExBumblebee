@@ -33,12 +33,17 @@ body{
 .greetingsButtons{
     display: flex;
     justify-content: space-around;
-    cursor: url(./details/cursorStyle/dragonlongswordnewdesignalternate.cur),pointer;
     margin: 15px;
 }
 .greetingsButtons div{
+    cursor: url(./details/cursorStyle/dragonlongswordnewdesignalternate.cur),pointer;
     border: 2px solid transparent;
     padding: 5px;
+}
+.greetingsButtons div a{
+    cursor: url(./details/cursorStyle/dragonlongswordnewdesignalternate.cur),pointer;
+    text-decoration: none;
+    color: #fff;
 }
 .greetingsButtons div:hover{
     transition: 0.3s;
@@ -47,3 +52,4 @@ body{
     border-radius: 10px;
 
 }
+
